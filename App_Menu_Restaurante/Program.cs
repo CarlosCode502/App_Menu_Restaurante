@@ -44,6 +44,15 @@ namespace App_Menu_Restaurante
         private static int op_Switch = 1;//mientras se siga cumpliendo la ejecución se seguira repitiendo
         private static int aum_pc;
 
+        /// <summary>
+        /// Contiene la altura original y la nueva
+        /// </summary>
+        private static int origWidth, width;
+        /// <summary>
+        /// Contiene el alto original y el nuevo
+        /// </summary>
+        private static int origHeight, height;
+
 
         /// <summary>
         /// Fragmento de código que mostrara el título.
@@ -227,13 +236,25 @@ namespace App_Menu_Restaurante
             Console.Clear();
         }
 
+
         /// <summary>
         /// Método main principal
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
-        {      
-            while(opcion == 1)
+        {
+            //origWidth = Console.WindowWidth; //obtiene el ancho actual de la ventana
+            //origHeight = Console.WindowHeight; //obtiene el alto actual de la ventana
+
+            ////Console.SetWindowPosition(star)
+
+            //width = 80;
+            //height = 18;
+
+            //Console.SetWindowSize(width, height);
+            //Console.SetCursorPosition(0,0);
+
+            while (opcion == 1)
             {                
                 Cabecera();
                 OpcionesMenu();
