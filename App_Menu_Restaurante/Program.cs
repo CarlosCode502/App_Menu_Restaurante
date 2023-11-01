@@ -47,11 +47,11 @@ namespace App_Menu_Restaurante
         /// <summary>
         /// Contiene la altura original y la nueva
         /// </summary>
-        private static int origWidth, width;
+        //private static int origWidth, width;
         /// <summary>
         /// Contiene el alto original y el nuevo
         /// </summary>
-        private static int origHeight, height;
+        //private static int origHeight, height;
 
 
         /// <summary>
@@ -148,6 +148,7 @@ namespace App_Menu_Restaurante
 
         //    Console.WriteLine("\n0. Volver al menú anterior.");
         //}
+
 
         /// <summary>
         ///Desplega el resultado en base a la opcción elegida por el usuario, 
