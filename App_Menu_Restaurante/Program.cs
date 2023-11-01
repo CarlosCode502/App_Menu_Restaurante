@@ -59,7 +59,9 @@ namespace App_Menu_Restaurante
         /// </summary>
         private static void Cabecera()
         {
-            fecha = DateTime.Today.ToString("D");
+            //fecha = DateTime.Today.ToString("D");
+
+            fecha = "martes, 25 de julio de 2023";
             hora = DateTime.Now.ToString("HH:mm:ss");
 
             Console.Title = "RESTAURANTE EL CÓDIGO VENADO";
