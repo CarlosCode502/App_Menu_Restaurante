@@ -179,7 +179,7 @@ namespace App_Menu_Restaurante
             }
 
             //Formato y formateo de texto
-            Console.WriteLine($"{suma_Total.ToString("Q 0,0.00")}");
+            Console.WriteLine("\nSu total a pagar es: ----> "+$"{suma_Total.ToString("Q 0,0.00")}"+" <----");
 
             ////USANDO ARREGLOS
             //facturas_comidas.Append(arr_Desyuno[int.Parse(teclado) - 1]);
@@ -284,21 +284,21 @@ namespace App_Menu_Restaurante
                             elegir = Console.ReadLine();
                             
                             //determina si el valor ingresado por el usuario coincide con alguna condicional
-                            if (elegir == "A" || elegir == "a" || elegir == "A." || elegir == "a.")
+                            if (elegir == "A" || elegir == "a" || elegir == "A." || elegir == "a." || elegir == "1")
                             {
                                 aum_pc = 1;//corresponde a la variable teclado opc1-1
                                 arr_TipoComida = arr_Desayuno;
                                 arr_TipoComida_Precio = arr_Des_Precios;
                                 BuscarCoicidencia();
                             }
-                            else if (elegir == "B" || elegir == "b" || elegir == "B." || elegir == "b.")
+                            else if (elegir == "B" || elegir == "b" || elegir == "B." || elegir == "b." || elegir == "2")
                             {
                                 aum_pc = 0;//corresponde a la variable teclado opc1 - 0
                                 arr_TipoComida = arr_Desayuno;
                                 arr_TipoComida_Precio = arr_Des_Precios;
                                 BuscarCoicidencia();                                
                             }
-                            else if (elegir == "C" || elegir == "c" || elegir == "C." || elegir == "c.")
+                            else if (elegir == "C" || elegir == "c" || elegir == "C." || elegir == "3")
                             {
                                 aum_pc = -1;//corresponde a la variable teclado opc1 -1
                                 arr_TipoComida = arr_Desayuno;
